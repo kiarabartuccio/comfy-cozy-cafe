@@ -51,7 +51,3 @@ The launcher builds the solution and opens the application automatically. If Vis
 ## What I Practiced
 
 This academic project strengthened my skills in C# desktop development, event handlers, form navigation, cart logic, reusable controls, visual resource integration, and organizing a multi-project solution.
-
-## Author
-
-Kiara Bartuccio
