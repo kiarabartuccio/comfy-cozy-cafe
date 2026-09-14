@@ -33,12 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Menus">
-      <HintPath>..\Menus\bin\Debug\Menus.exe</HintPath>
-    </Reference>
-    <Reference Include="MenuSetup">
-      <HintPath>..\Menus\bin\Debug\MenuSetup.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -106,6 +100,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\IconPasteries.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Menus\Menus.csproj">
+      <Project>{15405D8B-FC2A-4F77-A0B8-8453605347CA}</Project>
+      <Name>Menus</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MenuSetup\MenuSetup.csproj">
+      <Project>{263BC865-CEF3-44E5-8317-767F945732F2}</Project>
+      <Name>MenuSetup</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
