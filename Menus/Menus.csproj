@@ -33,9 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="MenuSetup">
-      <HintPath>..\MenuSetup\bin\Debug\MenuSetup.dll</HintPath>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -277,6 +274,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Sweet%27NLow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MenuSetup\MenuSetup.csproj">
+      <Project>{263BC865-CEF3-44E5-8317-767F945732F2}</Project>
+      <Name>MenuSetup</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
