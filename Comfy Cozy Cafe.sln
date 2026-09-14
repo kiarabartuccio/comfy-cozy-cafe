@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36717.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comfy Cozy Cafe", "Comfy Cozy Cafe\Comfy Cozy Cafe.csproj", "{505E91DD-D93B-45AA-A72E-3923A523AA8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MenuSetup", "MenuSetup\MenuSetup.csproj", "{263BC865-CEF3-44E5-8317-767F945732F2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Menus", "Menus\Menus.csproj", "{15405D8B-FC2A-4F77-A0B8-8453605347CA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505E91DD-D93B-45AA-A72E-3923A523AA8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505E91DD-D93B-45AA-A72E-3923A523AA8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505E91DD-D93B-45AA-A72E-3923A523AA8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505E91DD-D93B-45AA-A72E-3923A523AA8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{263BC865-CEF3-44E5-8317-767F945732F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263BC865-CEF3-44E5-8317-767F945732F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263BC865-CEF3-44E5-8317-767F945732F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263BC865-CEF3-44E5-8317-767F945732F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15405D8B-FC2A-4F77-A0B8-8453605347CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15405D8B-FC2A-4F77-A0B8-8453605347CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15405D8B-FC2A-4F77-A0B8-8453605347CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15405D8B-FC2A-4F77-A0B8-8453605347CA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4F63FDB5-CA26-4BF7-9C50-9C6055171B19}
+	EndGlobalSection
+EndGlobal
