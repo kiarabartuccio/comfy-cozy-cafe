@@ -8,7 +8,6 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
-using Menus;    
 
 namespace MenuSetup
 {
@@ -26,9 +25,7 @@ namespace MenuSetup
             ColdDrinksToolStripMenuItem.Checked = false;
             PastriesToolStripMenuItem.Checked = false;
 
-            Menus.HotDrinksForm hotDrinksForm = new Menus.HotDrinksForm();
-            hotDrinksForm.Show();
-            this.Close();
+            OpenMenuForm("Menus.HotDrinksForm");
         }
 
         private void ColdDrinksToolStripMenuItem_Click(object sender, EventArgs e)
@@ -37,9 +34,7 @@ namespace MenuSetup
             ColdDrinksToolStripMenuItem.Checked = true;
             PastriesToolStripMenuItem.Checked = false;
 
-            Menus.ColdDrinksForm coldDrinksForm = new Menus.ColdDrinksForm();
-            coldDrinksForm.Show();
-            this.Close();
+            OpenMenuForm("Menus.ColdDrinksForm");
         }
 
         private void PastriesToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,9 +43,7 @@ namespace MenuSetup
             ColdDrinksToolStripMenuItem.Checked = false;
             PastriesToolStripMenuItem.Checked = true;
 
-            Menus.PastriesForm pastriesForm = new Menus.PastriesForm();
-            pastriesForm.Show();
-            this.Close();
+            OpenMenuForm("Menus.PastriesForm");
         }
 
         public void EnableCartMenu()
@@ -61,8 +54,26 @@ namespace MenuSetup
 
         private void cartToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Menus.Cart cartForm = new Menus.Cart();
-            cartForm.Show();
+            OpenMenuForm("Menus.Cart", false);
+        }
+
+        // Load menu forms by name to avoid a circular project reference.
+        private void OpenMenuForm(string typeName, bool closeCurrentForm = true)
+        {
+            Type formType = Type.GetType(typeName + ", Menus");
+            Form form = formType == null ? null : Activator.CreateInstance(formType) as Form;
+
+            if (form == null)
+            {
+                MessageBox.Show("The selected menu could not be opened.", "Comfy Cozy Cafe");
+                return;
+            }
+
+            form.Show();
+            if (closeCurrentForm)
+            {
+                Close();
+            }
         }
     }
 }
