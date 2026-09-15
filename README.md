@@ -4,6 +4,8 @@ A C# Windows Forms café-ordering application that lets customers browse drinks 
 
 ## Quick Start
 
+HOW I START: DOWNLOAD ZIP FILE, DOUBLE CLICK ON .SLN FILE, OPENS ANDROID STUDIO, RUN
+
 This project runs on Windows and targets **.NET Framework 4.7.2**.
 
 1. Download and extract the repository.
