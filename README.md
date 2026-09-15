@@ -4,10 +4,13 @@ A C# Windows Forms café-ordering application that lets customers browse drinks 
 
 ## Screenshots
 
+<p align="center">
+  <img src="docs/screenshots/welcome-screen.png" alt="Comfy Cozy Cafe welcome screen">
+  <br>
+  <b>Welcome Screen</b>
+</p>
+
 <table>
-  <tr>
-    <td colspan="2" align="center"><img src="docs/screenshots/welcome-screen.png" width="720" alt="Comfy Cozy Cafe welcome screen"><br><b>Welcome Screen</b></td>
-  </tr>
   <tr>
     <td align="center"><img src="docs/screenshots/category-menu.png" width="420" alt="Comfy Cozy Cafe category menu"><br><b>Category Menu</b></td>
     <td align="center"><img src="docs/screenshots/shopping-cart.png" width="380" alt="Comfy Cozy Cafe shopping cart"><br><b>Shopping Cart</b></td>
