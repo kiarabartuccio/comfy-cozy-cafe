@@ -2,6 +2,25 @@
 
 A C# Windows Forms café-ordering application that lets customers browse drinks and pastries, customize items, manage a shopping cart, and move through a visual ordering experience.
 
+## Screenshots
+
+<table>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/screenshots/welcome-screen.png" width="720" alt="Comfy Cozy Cafe welcome screen"><br><b>Welcome Screen</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/category-menu.png" width="420" alt="Comfy Cozy Cafe category menu"><br><b>Category Menu</b></td>
+    <td align="center"><img src="docs/screenshots/shopping-cart.png" width="380" alt="Comfy Cozy Cafe shopping cart"><br><b>Shopping Cart</b></td>
+  </tr>
+  <tr>
+    <td align="center"><img src="docs/screenshots/pastries-menu.png" width="520" alt="Comfy Cozy Cafe pastries menu"><br><b>Pastries Menu</b></td>
+    <td align="center"><img src="docs/screenshots/hot-drinks-menu.png" width="520" alt="Comfy Cozy Cafe hot drinks menu"><br><b>Hot Drinks Menu</b></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/screenshots/cold-drinks-menu.png" width="720" alt="Comfy Cozy Cafe cold drinks menu"><br><b>Cold Drinks Menu</b></td>
+  </tr>
+</table>
+
 ## Quick Start
 
 HOW I START: DOWNLOAD ZIP FILE, DOUBLE CLICK ON .SLN FILE, OPENS ANDROID STUDIO, RUN
