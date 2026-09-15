@@ -5,7 +5,7 @@ A C# Windows Forms café-ordering application that lets customers browse drinks 
 ## Screenshots
 
 <p align="center">
-  <img src="docs/screenshots/welcome-screen.png" alt="Comfy Cozy Cafe welcome screen">
+  <img src="docs/screenshots/welcome-screen.jpg" alt="Comfy Cozy Cafe welcome screen">
   <br>
   <b>Welcome Screen</b>
 </p>
